@@ -1,0 +1,11 @@
+<template name="weather">
+  <link rel="stylesheet" type="text/css" href="./icons/weather-icons.min.css">
+  <div style="font-size: 2em">
+  <i class="wi wi-fw wi-{{icon}}"></i> {{temp}}&deg;C
+  </div>
+
+  <div>
+    Low: {{min}}&deg;C / High: {{max}}&deg;C <br>
+    {{summary}}
+  </div>
+</template>
